@@ -3,15 +3,15 @@ Module.register("MM-veryga",{
 	defaults: {
 	},
 
-  getScripts: function() {
-    return ["moment.js"]
-  },
+    getScripts: function() {
+      return ["moment.js"]
+    },
 
 
-	getDom: function() {
-		var wrapper = document.createElement("div");
-    wrapper.id = "MMv_wrapper"
-    wrapper.style = ""
+    getDom: function() {
+	var wrapper = document.createElement("div");
+    	wrapper.id = "MMv_wrapper"
+    	wrapper.style = ""
 
     var canvas = document.createElement("canvas")
     canvas.width = 60
